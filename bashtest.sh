@@ -12,6 +12,10 @@ echo "calling function"
 fs_tab
 
 echo -e "\e[31m install http \e[0m"
+rpm -qa |grep httpd
+if [ $? -eq 0]
+echo "intsalling httpd"
 yum install httpd -y   &>>/tmp/httpdlog
-
+else "httpd is present"
+fi
 rpm -qa |grep httpd |awk '{print $1}'
