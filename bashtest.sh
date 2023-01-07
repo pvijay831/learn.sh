@@ -12,5 +12,6 @@ echo "calling function"
 fs_tab
 
 echo -e "\e[31m install http \e[0m"
-yum install httpd -y &>>/tmp
+yum install httpd -y   &>>/tmp/httpdlog
+
 rpm -qa |grep httpd
