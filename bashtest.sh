@@ -1,5 +1,5 @@
 #/bin/bash
-source fs_tab
+source common.sh
 echo -e "\e[32m hello world \e[0m"
 
 echo -e "\e[32m mounted disks \e[0m"
