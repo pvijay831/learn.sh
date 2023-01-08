@@ -19,4 +19,6 @@ yum install httpd -y   &>>/tmp/httpdlog
 else
   echo "httpd is present"
 fi
-rpm -qa |grep httpd | awk 'NR==1'
+rpm -qa |grep htttpd | awk 'NR==1'
+
+echo '***hello world***
