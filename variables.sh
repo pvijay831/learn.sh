@@ -4,3 +4,4 @@ class=devops
  echo class name - ${class}
 
  DATE=$(date +%F)
+ echo today date is ${DATE}
