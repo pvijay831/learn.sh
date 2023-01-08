@@ -21,4 +21,4 @@ else
 fi
 rpm -qa |grep htttpd | awk 'NR==1'
 
-echo '***hello world***
+echo '***hello world***'
